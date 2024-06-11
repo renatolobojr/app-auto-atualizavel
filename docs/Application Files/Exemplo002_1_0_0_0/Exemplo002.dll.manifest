@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Exemplo001.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Exemplo002.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -49,44 +49,44 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>p5IA8sG4XKqNYEj4XaGQ5X7cOKU4x8GI0gjX9qLLPfo=</dsig:DigestValue>
+        <dsig:DigestValue>9zAV2kvFcaGdM2gH083enfzmWkshU6xGCeNU0anKB5I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Exemplo001.deps.json" size="475">
+  <file name="Exemplo002.deps.json" size="475">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>BmoRAiwo0LfoBziDY+orKBnFS1e+vLihmPpGrMH72jQ=</dsig:DigestValue>
+      <dsig:DigestValue>6zhU4LJ6ieQg8+QAZD2z4ZRFi+pLDNUtTKBpLxIZD2Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Exemplo001.dll" size="3584">
+  <file name="Exemplo002.dll" size="4096">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>txlPVtO6kz6oUmFAs6kI/mm2RCT/n9nktbxATmiNBUU=</dsig:DigestValue>
+      <dsig:DigestValue>46WkY/96EkIEN/mCRVtDQ39Gkva/CNfJByT7AQj4wfo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Exemplo001.exe" size="148992">
+  <file name="Exemplo002.exe" size="157184">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Pk6TlpaWdfvMAuxomjK0wwooZ6kIrn5Hdn3kgaZcXf4=</dsig:DigestValue>
+      <dsig:DigestValue>D95OTWpoRIYhs/R7uaJtQEktQEM/LPQc0DCaAtmJXeU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Exemplo001.runtimeconfig.json" size="253">
+  <file name="Exemplo002.runtimeconfig.json" size="253">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>3tOutYVqEdsLZUp4VXRJDKtVg56/sX7+njm4lhj8W5E=</dsig:DigestValue>
+      <dsig:DigestValue>SJqSw3Qit+XOIS+XAbeggdiHuJX4i5GwAJdhMfkPgj8=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
