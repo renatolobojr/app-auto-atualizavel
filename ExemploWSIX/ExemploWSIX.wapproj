@@ -62,7 +62,7 @@
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
     <AppxBundlePlatforms>x86</AppxBundlePlatforms>
-    <AppInstallerUri>https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/docs</AppInstallerUri>
+    <AppInstallerUri>https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/docs/</AppInstallerUri>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">

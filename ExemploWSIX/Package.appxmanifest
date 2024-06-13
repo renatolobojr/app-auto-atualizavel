@@ -9,7 +9,7 @@
   <Identity
     Name="61f9b702-741c-4994-933d-99c9052f4e7e"
     Publisher="CN=renato.lobo"
-    Version="1.0.7.0" />
+    Version="1.0.8.0" />
 
   <Properties>
     <DisplayName>ExemploWSIX</DisplayName>
