@@ -54,7 +54,7 @@
     <TargetPlatformVersion>10.0.22000.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.22000.0</TargetPlatformMinVersion>
     <DefaultLanguage>pt-BR</DefaultLanguage>
-    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
     <NoWarn>$(NoWarn);NU1702</NoWarn>
     <EntryPointProjectUniqueName>..\Apps\Exemplo002\Exemplo002.csproj</EntryPointProjectUniqueName>
     <GenerateAppInstallerFile>True</GenerateAppInstallerFile>
@@ -64,6 +64,7 @@
     <AppxBundlePlatforms>x86</AppxBundlePlatforms>
     <AppInstallerUri>https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/docs/</AppInstallerUri>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <PackageCertificateThumbprint>866CD3F553C1F24B4476F12B05C7A96CE9295028</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <AppxBundle>Always</AppxBundle>
@@ -101,6 +102,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ExemploWSIX_TemporaryKey.pfx" />
     <Content Include="Images\SplashScreen.scale-200.png" />
     <Content Include="Images\LockScreenLogo.scale-200.png" />
     <Content Include="Images\Square150x150Logo.scale-200.png" />

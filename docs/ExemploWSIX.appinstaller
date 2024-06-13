@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/docs/ExemploWSIX.appinstaller"
-	Version="1.0.9.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	Version="1.0.10.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
 	<MainBundle
 		Name="61f9b702-741c-4994-933d-99c9052f4e7e"
-		Version="1.0.9.0"
+		Version="1.0.10.0"
 		Publisher="CN=renato.lobo"
-		Uri="https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/docs/ExemploWSIX_1.0.9.0_Debug_Test/ExemploWSIX_1.0.9.0_x86_Debug.msixbundle" />
+		Uri="https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/docs/ExemploWSIX_1.0.10.0_Debug_Test/ExemploWSIX_1.0.10.0_x86_Debug.msixbundle" />
 	<UpdateSettings>
 		<OnLaunch
 			HoursBetweenUpdateChecks="0" />
