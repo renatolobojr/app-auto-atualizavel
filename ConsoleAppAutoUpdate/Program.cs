@@ -10,8 +10,8 @@ namespace ConsoleAppAutoUpdate
             Console.WriteLine("Hello, World!");
 
             AutoUpdater.Synchronous = true;
-            //AutoUpdater.ShowSkipButton = false;
-            //AutoUpdater.ShowRemindLaterButton = false;
+            AutoUpdater.ShowSkipButton = false;
+            AutoUpdater.ShowRemindLaterButton = false;
             //AutoUpdater.Mandatory = true;
             //AutoUpdater.UpdateMode = Mode.Forced; //Mode.ForcedDownload
             //AutoUpdater.HttpUserAgent = "AutoUpdater";
@@ -25,7 +25,7 @@ namespace ConsoleAppAutoUpdate
 
 
 
-            AutoUpdater.Start("https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/teste.xml"); //endereço do xml de verificação de update
+            AutoUpdater.Start("https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/ConsoleAppAutoUpdate.exe"); //endereço do xml de verificação de update
 
 
             Console.WriteLine("Updated!");
