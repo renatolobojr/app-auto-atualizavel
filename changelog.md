@@ -1,9 +1,9 @@
 # Autoupdate 2
 
-Todas as mudanças feitas no Smartsync deverá ser documentadas nesse arquivo.
+Todas as mudanÃ§as feitas no autoupdate deverÃ¡ ser documentadas nesse arquivo.
 
 ## Develop [5.1.0] - 19/09/
 
 ## [5.0.0] - 15/03/2023
   
-Lançamento do novo Autoupdate em ambiente [](app.teste.com) ([#77]())
+LanÃ§amento do novo Autoupdate em ambiente [](app.teste.com) ([#77]())
