@@ -9,7 +9,7 @@ namespace ConsoleAppAutoUpdate
         {
             Console.WriteLine("Hello, World!");
 
-            //AutoUpdater.Synchronous = true;
+            AutoUpdater.Synchronous = true;
             //AutoUpdater.ShowSkipButton = false;
             //AutoUpdater.ShowRemindLaterButton = false;
             //AutoUpdater.Mandatory = true;
@@ -25,8 +25,10 @@ namespace ConsoleAppAutoUpdate
 
 
 
-            AutoUpdater.Start("https://rbsoft.org/updates/AutoUpdaterTest.xml"); //endereço do xml de verificação de update
+            AutoUpdater.Start("https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/teste.xml"); //endereço do xml de verificação de update
 
+
+            Console.WriteLine("Updated!");
 
             //AutoUpdater.Start("ftp://rbsoft.org/updates/AutoUpdaterTest.xml", new NetworkCredential("FtpUserName", "FtpPassword"));
             //AutoUpdater.Start("https://rbsoft.org/updates/AutoUpdaterTest.xml", myAssembly);

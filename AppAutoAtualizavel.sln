@@ -17,6 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppAutoUpdate", "Con
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{2783BDC7-C551-4181-865D-3FD3B8BF9862}"
 	ProjectSection(SolutionItems) = preProject
+		changelog.md = changelog.md
 		teste.xml = teste.xml
 	EndProjectSection
 EndProject
