@@ -25,7 +25,7 @@ namespace ConsoleAppAutoUpdate
 
 
 
-            AutoUpdater.Start("https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/ConsoleAppAutoUpdate.exe"); //endereço do xml de verificação de update
+            AutoUpdater.Start("https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/teste.xml"); //endereço do xml de verificação de update
 
 
             Console.WriteLine("Updated!");

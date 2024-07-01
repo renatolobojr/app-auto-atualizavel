@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <item>
 	<version>1.0.0.2</version>
-	<url>https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/teste.xml</url>
+	<url>https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/ConsoleAppAutoUpdate.exe</url>
 	<changelog>https://raw.githubusercontent.com/renatolobojr/app-auto-atualizavel/master/changelog.md</changelog>
 	<mandatory>false</mandatory>
 </item>
